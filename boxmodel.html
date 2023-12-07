@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxmodel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="./index.html">SELECTORES</a></li>
+                <li class="nav__li"><a href="./boxmodel.html">BOXMODEL</a></li>
+            </ul>
+        </nav>
+        <h1> SOBRE BOXMODEL</h1>
+    </header>
+    <main>
+        <section class="seccion1">
+            <h2>Pregunta 1: ¿Qué es el Box Model?</h2>
+            <p> El Box Model es la caja que como espacio posee todo elemento dentro de un Viewport.</p>
+            <h2>Pregunta 2: Uso particular del selector Universal</h2>
+            <p>Un uso particular del selector Universal (*) es para definir que el borde y el padding no afecte el tamaño en ancho y alto de una caja. Ejm: (box-sizing: border-box)</p>
+        </section>
+        <section class="seccion2">
+            <h2>Pregunta 2: Explica las capas del box model</h2>
+            <ul>
+                <li>Content: Es la primera capa interna. Esta definido por el alto y ancho de una caja</li>
+                <li>Padding: Es la segunda capa interna. Esta definido por el espacio que podemos asignar a la caja (top, right, bottom, left)</li>
+                <li>Border: Es la tercera capa interna. Esta definido por el espacio que podemos asignar a la caja (top, right, bottom, left)</li>
+                <li>Margin: Es la capa externa. Esta definido por el espacio que podemos asignar a la caja (top, right, bottom, left)</li>
+            </ul>
+        </section>
+        <section class="seccion3">
+            <h2>Pregunta 3: Explica el shorthand padding y margin</h2>
+                <p>Esto representa la manera simplificada que podemos asignar en espacio a un padding y margin
+                </br> ejemplo podemos reemplazar un:</br>
+                padding-top: 2px;</br>
+                padding-right: 5px;</br>
+                padding-bottom: 1px;</br>
+                padding-left: 3px; </br>
+                por un...</br>
+                padding: 2px 5px 1px 3px;</br>
+                por un...</br>
+                padding: 20px 5px;
+                </p>
+        </section>
+        <section class="seccion4">
+            <h2>Pregunta 2: Explica sobre el margin</h2>
+            <ul>
+                <li>Margin Negativo: El margin es la unica capa que puede darsele un valor negativo, permitiendo que salga del viewport</li>
+                <li>Colapsado de márgenes verticales: Este factor es importante e indica que ante 2 valores redundantes de espaciado vertical a 2 cajas contiguas, se toma sólo el valor mayor. Ejm. caja1 tiene un margin-bottom de 1rem y caja 2 tiene un margin-top de 4rem, sólo se toma el valor mayor (4rem)</li>
+                <li>centrado perfecto horizontal: Esto permite posicionar la caja al centro del viewport, Ejm. margin: 0 auto </li>
+            </ul>
+        </section>
+        <div class="caja caja1">
+            CAJA 1</div>
+        <div class="caja caja2">
+            CAJA 2</div>
+    
+    </main>
+</body>
+</html>

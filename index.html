@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectores</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="./index.html">SELECTORES</a></li>
+                <li class="nav__li"><a href="./boxmodel.html">BOXMODEL</a></li>
+            </ul>
+        </nav>
+        <h1> SOBRE SELECTORES</h1>
+    </header>
+    <main>
+        <section class="pregunta1">
+            <h2>Pregunta 1: ¿Qué son selectores?</h2>
+            <p> Un selector es el modo como llamamos o invocamos un elemento a fin de aplicarle un estilo desde un archivo .html hacia un archivo .css </br>
+            Ejemplo: Los elementos que podemos llamar pueden ser de etiqueta, de clase o ID </p>
+        </section>
+        <section class="pregunta2">
+            <h2>Pregunta 2: Explica los tipos de selector simple</h2>
+            <ul>
+                <li>Selector de etiqueta: Es válido su uso, ejemplo: cuando deseamos llamar a una etiqueta h1, solo ponemos en el css h1 {aplicamos estilo}</li>
+                <li>Selector de Clase: Este selector es el recomendado para usarlo en CSS, por buena practica. Ejemplo cuando deseamos llamar a una etiqueta, antes debemos agregarle una clase="" y al llamarla en CSS la llamamos con .nombre_de_clase {}</li>
+                <li>Selector de ID: No se recomienda su uso para estilos, se recomienda su uso para Javascript. Ejemplo cuando deseamos llamar a una etiqueta, antes debemos agregarle un id="nombre_de_id", y luego la llamamos en el CSS con #nombre_ID {}</li>
+                <li>Selector Universal: aplicara el estilo a todo en el archivo .html su eso es my particular. Ejemplo: para su uso solo debemos colocar en el CSS * {}</li>
+            </ul>
+        </section>
+        <section class="Pregunta 3">
+            <h2>Pregunta 3: Explica los tipos de selectores compuestos</h2>
+            <ul>
+                <li>Selector de descendencia: aplica el estilo a todos los elemtnso que se encuentran en los niveles inferiores, no necesariamente hijos directos. Ejemplo, aplicar estilo a todos los h2 que se encuentra dentro de un div con clase padre ".padre h2 {}"</li>
+                <li>Selector de hijho directo: aplica estilo a todos los ekementos que estan directamente seguidos de la clase padre. Ejemplo .padre >h3 {}</li>
+                <li>Selector hermano siguiente: aplica estilo a un elemento que se encuentran al mismo nivel y siguiente del hermano</li>
+                <li>Selector hermanos siguientes: aplica estilo a todos los elementos que se encuentran al mismo nivel y siguiente del hermano</li>
+                <li>Selector de anidamiento: Es aplicar el mismo estilo a 2 o mas elementos</li>
+            </ul>
+            
+        </section>
+    </main>
+    <footer>
+        <h2>NOTA: Se esta aplicando los estilos en "style.css" según los tipos de selectores compuestos y segun el tipo de selector "clase".</h2>
+    </footer>
+</body>
+</html>

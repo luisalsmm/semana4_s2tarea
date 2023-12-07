@@ -1,0 +1,76 @@
+.nav__ul {
+    text-align: center;
+}
+
+.nav__li {
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.nav__li a{
+    text-decoration: none;
+}
+
+
+
+.pregunta1 h2 {
+    color: blue;
+
+}
+
+.pregunta1 p {
+    color:brown;
+}
+
+.pregunta2 h2 {
+    color: red;
+
+}
+
+.pregunta2 li {
+    color:peru;
+}
+
+.pregunta3 h2 {
+    color: orange;
+
+}
+
+.pregunta3 li {
+    color:green;
+}
+
+/* esto hace que no afecte el tamaño de la caja, el padding y border siempre se contabilizara hacia adentro de la caja */
+* {
+    box-sizing: border-box;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+    /* padding: 10px; */
+    border: 1px solid black;
+    /* padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-left: 3px; */
+    /* padding: 2px 5px 1px 3px; */
+    padding: 20px 5px;
+    /* centrado perfecto de manera vertical "0" y horizontal "auto" */
+}
+
+.caja1 {
+    background-color: peru;
+    /* margin-left: 4rem; */
+    margin: 0 auto;
+
+}
+
+.caja2 {
+    background-color: steelblue;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
